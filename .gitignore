@@ -1,5 +1,6 @@
 # Compiled files
 *.exe
+compile.test
 
 # Windows image file caches
 Thumbs.db
