@@ -9,7 +9,7 @@ using namespace std;
 #include "libs/GLbase.h"
 
 char *easel;
-int width, height, viewing_distance = 10;
+int width, height, viewing_distance = 50;
 
 void Point::drawPoint(int r = 255,int g = 255,int b = 255){
 	double x,y;
@@ -70,7 +70,3 @@ void setpixel(char *buf, int x, int y, int r=255, int g=255, int b=255) {
 	buf[(y*width+x)*3+1] = g;
 	buf[(y*width+x)*3+2] = b;
 }
-
-// Compiler command:
-
-// g++ -Wall -o engine.exe engine.cpp -lglut32cu -lglu32 -lopengl32
