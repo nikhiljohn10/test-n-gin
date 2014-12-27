@@ -1,6 +1,7 @@
 # Compiled files
 *.exe
-compile.test
+compile
+engine_debug.exe
 
 # Windows image file caches
 Thumbs.db
@@ -30,7 +31,8 @@ $RECYCLE.BIN/
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*

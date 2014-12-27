@@ -59,6 +59,7 @@ public:
 	Point subtractVectorFromPoint(Vector);
 	Vector subtractPointFromPoint(Point);
 	void drawPoint(int,int,int);
+	void setPointToPoint(Point);
 };
 
 // Vector Class
@@ -104,6 +105,12 @@ Vector Point::subtractPointFromPoint(Point point){
 	temp.CODY = THIS_Y - POINT_Y;
 	temp.CODZ = THIS_Z - POINT_Z;
 	return temp;
+}
+
+void Point::setPointToPoint(Point point){
+	THIS_X = POINT_X;
+	THIS_Y = POINT_Y;
+	THIS_Z = POINT_Z;
 }
 
 // Vector class function

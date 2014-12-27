@@ -1,4 +1,5 @@
 void drawfunc(void);
+void setpixel2(int, int);
 void setpixel(char*, int, int, int, int, int);
 
 void keyfunc(unsigned char k, int x, int y) {
@@ -13,6 +14,7 @@ void keyfunc(unsigned char k, int x, int y) {
 			break;
 		case 'a':
 			// 'a' key
+			cout << "pressed a" << endl;
 			break;
 	}
 }
